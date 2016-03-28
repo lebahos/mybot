@@ -1,47 +1,60 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# MyBot.run AUTOIT .gitignore file
 
-# Folder config file
-Desktop.ini
+# Global Files
+/.project
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+*.log
+*.orig
+*.png
+*.jpg
+*.exe
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Global Folders
+[Tt]emplates/
+[Tt]emp/
 
-# Windows shortcuts
-*.lnk
 
-# =========================
-# Operating System Files
-# =========================
+# Obsolete Files and Folders
+[Ll]oots/
+[Aa]llTowns/
 
-# OSX
-# =========================
+# Exclusion Curl (used for PushBullet)
+![Cc]url.exe
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Exclusion Language .ini's
+![Ll]anguages/*.ini
 
-# Thumbnails
-._*
+# Exclusion Images/Icon
+![Ii]mages/logo.jpg
+![Ii]mages/2arrow.jpg
+![Ii]mages/MyBot.ico
+![Ii]mages/Button/Traps.png
+![Ii]mages/Button/Xbow.png
+![Ii]mages/Button/Inferno.png
+![Ii]mages/Button/BoostBarrack.png
+![Ii]mages/Button/BoostAllBarracks.png
+![Ii]mages/Resources/Collect.png
+![Ii]mages/Resources/loot_cart.png
+![Ii]mages/Resources/Tomb.png
+![Ii]mages/Resources/Tomb1.png
+![Ii]mages/Resources/Tomb2.png
+![Ii]mages/Resources/bush.png
+![Ii]mages/Resources/mushroom.png
+![Ii]mages/Resources/tree.png
+![Ii]mages/Resources/tree2.png
+![Ii]mages/Resources/trunk.png
+![Ii]mages/Resources/trunk2.png
+![Ii]mages/Resources/gembox.png
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Debug
+[Ll]ib/[Dd]ebug/
+[Ll]ib/[Tt]est.txt
+EnableMBRDebug.txt
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# SQL (not in use)
+*.sqlite3
+*.db
+
+# Release files
+LastVersion*.txt
+TestVersion*.txt
